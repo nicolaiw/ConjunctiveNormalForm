@@ -55,7 +55,7 @@ namespace ConjunctiveNormalForm
         {
             // Parantheses just for readability
 
-            //      -b-c     * a
+            //     a  +    -b-c
             return a || (!b && !c);
         }
     }
