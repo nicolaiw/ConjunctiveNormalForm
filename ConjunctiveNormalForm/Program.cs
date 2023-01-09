@@ -25,7 +25,7 @@ namespace ConjunctiveNormalForm
      *  7.   1 | 1 | 0 | 1      
      *  8.   1 | 1 | 1 | 1      
      *  
-     *  Equivalence transformation of the DNF:
+     *  Equivalence transformation of the CNF:
      *  
      *  s = (a + b + -c)(a + -b + c)(a + -b + -c)
      *    = a + (b + -c)(-b + c)(-b + -c) // factorice a
